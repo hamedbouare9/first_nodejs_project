@@ -1,0 +1,21 @@
+{
+  "name": "node-pokemin-ap1",
+  "version": "1.0.0",
+  "description": "An awesome API Rest to handle some pokemons",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Hamed",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.3",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.18"
+  }
+}
